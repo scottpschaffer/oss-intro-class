@@ -12,3 +12,6 @@ def test_multiply():
 
 def test_subtraction():
     assert calculator.subtraction(5, 3) == 2
+
+def test_divide():
+    assert calculator.divide(20, 4) == 5
